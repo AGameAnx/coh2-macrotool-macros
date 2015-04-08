@@ -1,5 +1,5 @@
 local showWeaponsOfInterestOnly = true
-local onlySmallArms = true
+local onlySmallArms = false
 
 -- NORMALLY UNUSED LISTS
 -- Copy into weaponsOfInterest table when needed
@@ -100,6 +100,7 @@ local weaponsOfInterest = {
 	['axis\\small_arms\\single_fire\\rifle\\jaeger_panzergren_g43_rifle_mp.xml'] = 4,
 	['axis\\small_arms\\single_fire\\rifle\\ostruppen_kar_98k_rifle_mp.xml'] = 5,
 	
+	['soviet\\ballistic_weapon\\infantry_anti_tank_weapon\\guard_troop_ptrs_41_mp.xml'] = 2,
 	['soviet\\small_arms\\machine_gun\\heavy_machine_gun\\dshk_38_sokolov_mp.xml'] = 1, -- check
 	['soviet\\small_arms\\machine_gun\\heavy_machine_gun\\m3a1_scout_car_m2hb_hmg_mp.xml'] = 1, -- check
 	['soviet\\small_arms\\machine_gun\\heavy_machine_gun\\m5_halftrack_m2hb_hmg_mp.xml'] = 1, -- check -- check
