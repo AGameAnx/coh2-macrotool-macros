@@ -304,11 +304,11 @@ function each_file(xml)
 					local dist
 					if weapon.range.distance[distName] < 0 then
 						if distName == 'near' then
-							dist = (weapon.range.max - weapon.range.min)*0.25
+							dist = weapon.range.min
 						elseif distName == 'mid' then
 							dist = (weapon.range.max - weapon.range.min)*0.5
 						else
-							dist = (weapon.range.max - weapon.range.min)*0.75
+							dist = weapon.range.max
 						end
 					else
 						dist = weapon.range.distance[distName]
