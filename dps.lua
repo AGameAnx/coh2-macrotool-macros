@@ -6,7 +6,6 @@ local onlySmallArms = false
 local list_Pistols = {
 	['aef\\small_arms\\single_fire\\pistol\\medic_m1911_45cal_pistol_mp.xml'] = 3,
 	['axis\\small_arms\\single_fire\\pistol\\luger_p08_9mm_pistol_mp.xml'] = 1,
-	['west_german\\small_arms\\single_fire\\pistol\\officer_luger_p08_9mm_pistol_mp.xml'] = 1,
 }
 local list_BaseWeapons = { -- needs updating
 	['aef\\small_arms\\machine_gun\\heavy_machine_gun\\aef_base_m2hb_50cal_mp.xml'] = 1, -- check
@@ -133,6 +132,7 @@ local weaponsOfInterest = {
 	['west_german\\small_arms\\single_fire\\rifle\\panzerfusilier_kar_98k_rifle_mp.xml'] = 6,
 	['west_german\\small_arms\\single_fire\\rifle\\volksgrenadier_kar_98k_rifle_mp.xml'] = 5,
 	['west_german\\small_arms\\single_fire\\rifle\\waffen_wlite_kar_98k_rifle_mp.xml'] = 3,
+	['west_german\\small_arms\\single_fire\\pistol\\officer_luger_p08_9mm_pistol_mp.xml'] = 1,
 }
 
 function each_file(xml)
