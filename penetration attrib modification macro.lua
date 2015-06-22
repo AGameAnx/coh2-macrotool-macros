@@ -114,11 +114,11 @@ function each_file(xml)
 					print('\t},')
 				end
 				
-				xml.instance.weapon_bag.penetration.near = 0.01
-				xml.instance.weapon_bag.penetration.mid = 0.01
-				xml.instance.weapon_bag.penetration.far = 0.01
+				--xml.instance.weapon_bag.penetration.near = 0.01
+				--xml.instance.weapon_bag.penetration.mid = 0.01
+				--xml.instance.weapon_bag.penetration.far = 0.01
 				
-				xml:save()
+				--xml:save()
 			end
 			if addedProjectiles[xml.instance.weapon_bag.projectile.projectile['@attributes'].value] then
 				if damageAvg ~= addedProjectiles[xml.instance.weapon_bag.projectile.projectile['@attributes'].value][2] then
